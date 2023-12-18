@@ -18,7 +18,11 @@ The repository contains code and projects on:
 * Basics of Python (variables, data types, loops, and functions)
 * Intermediate concepts (OOP, file handling, error handling)
 * Advanced topics (decorators, generators, concurrency)
+<<<<<<< HEAD
 * Libraries and frameworks (NumPy, Pandas)
+=======
+* Libraries and frameworks (NumPy, Pandas, Flask, Django)
+>>>>>>> e817d37630012bf74af7fb16e1812e1d35e6da9e
 
 ## Usage
 
@@ -36,4 +40,7 @@ Contributions are welcome! If you find a bug, have suggestions, or want to add y
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](link_to_license) file for details.
+<<<<<<< HEAD
 
+=======
+>>>>>>> e817d37630012bf74af7fb16e1812e1d35e6da9e

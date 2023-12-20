@@ -148,6 +148,185 @@ Output:
 
 
 -------------------------------------------------------------------------------------------
+endswith():
+
+The endswith() method checks if the strng ends with a given value . if yes then return true 
+else return false.
+
+
+Example:
+str1="Welcome to the Console !!!"
+print(str1.endswith("!!!"))
+
+
+Output:
+
+True
+
+We can even also check for a value in-between the string by providing 
+start and index position.
+
+
+Example:
+str1="Welcome to the Console !!!"
+print(str1.endswith("to",4,10))
+
+
+Output:
+
+True
+
+---------------------------------------------------------------------------------------------
+
+find():
+
+The find() method searches for the first occurence of the given value and returns the 
+index where it is present . If given value is absent from the string the return -1;
+
+
+Example:
+
+str1="He's is Dan. He is an honest man."
+print(str1.find("is"))
+
+
+Output:
+
+13
+
+---------------------------------------------------------------------------------------------
+
+index():
+
+The index()method searches for the first occurence of the given value and returns the index
+where it is present . if given vlaue is absent from the string then raise an exception.
+
+Example:
+str1="He's is Dan. He is an honest man."
+print(str1.find("Danial"))
+
+
+Output:
+
+ValueError:Substring not found
+
+---------------------------------------------------------------------------------------------
+isalnum():
+
+The isalnum() method returns True only if the entire string only consists of A-Z, a-z,0-9. If 
+any other characters or punctions are present , then returns False.
+
+Example:
+
+str1="WelcomeTotheConsole"
+print(str1.isalnum())
+
+Output:
+True
+
+
+---------------------------------------------------------------------------------------------
+isalpha():
+
+The isalnum() method returns True only if entire string only consists of A-Z ,a-z, if
+any other characters or punctions or number (0-9) are present, then it returns False.
+
+
+Example:
+
+str1="Welcome11"
+print(str1.isalpha())
+
+Output:
+
+False
+
+---------------------------------------------------------------------------------------------
+islower():
+The islower() method retuns True if all the characters in the string are lower case,
+else returns False.
+
+
+Example:
+
+str1="hello world"
+print(str1.islower())
+
+
+Output:
+
+True
+
+---------------------------------------------------------------------------------------------
+
+isprintable():
+The isprintable() method returns True if all the values within the given string are printable
+,if not then returns false.
+
+
+
+Example:
+str1="hello adii \n"
+
+Output:
+False
+
+reason:
+\n is not printalbe;
+
+---------------------------------------------------------------------------------------------
+isspace():
+
+The isspace() method returns True Only if the string contians white spaces, else returns
+False.
+
+Example:
+Str1="            " #using Spacebar
+str2="            " #using tab
+str3"Adii"
+
+
+Output:
+
+True
+True
+False
+
+
+---------------------------------------------------------------------------------------------
+istitle():
+
+The istitle() returns True only if the first letter of each word of the string is capatalized
+,else returns False.
+
+
+Example:
+
+str1="World Health Organization"
+print(str1.istitle());
+
+
+Output:
+True
+
+
+---------------------------------------------------------------------------------------------
+
+title():
+
+the title() method capitalizes each letter of the word within the string.
+
+Example:
+
+str1="He's name is adii. adii is an honest man. "
+print(str1.title())
+
+
+Output:
+
+He's Name Is Adii. Adii Is An Honest Man.
+
+---------------------------------------------------------------------------------------------
 
 
 '''
